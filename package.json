@@ -2,7 +2,7 @@
   "name": "groels_site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://GGabi.github.io/groels.dev",
+  "homepage": "http://GGabi.github.io/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",

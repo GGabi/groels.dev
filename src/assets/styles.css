@@ -232,7 +232,7 @@ section.education-item-module {
 }
 
 a {
-  color: var(--main-shade);
+  color: var(--light-accent);
 }
 
 #sideBar a:active,
@@ -242,7 +242,7 @@ a {
 }
 
 a:hover {
-  color: var(--light-accent);
+  color: var(--dark-accent);
 }
 
 section .portfolio-section {

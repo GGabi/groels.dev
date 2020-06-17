@@ -11,9 +11,9 @@ const Portfolio = ({ portfolioData }) => {
             {
               portfolioData && portfolioData.projects.map((project, i) => (
                 <div key={i} className='portfolio-content-project'>
-                  <div className='subheading portfolio-content-project-title'>
+                  <a href={project.link} className='subheading portfolio-content-project-title'>
                     {project.title}
-                  </div>
+                  </a>
                   <div className='text-primary portfolio-content-project-desc'>
                     {project.description}
                   </div>
@@ -24,9 +24,9 @@ const Portfolio = ({ portfolioData }) => {
             {
               portfolioData && portfolioData.experiments.map((exp, i) => (
                 <div key={i} className='portfolio-content-experiment'>
-                  <div className='subheading portfolio-content-experiment-title'>
+                  <a href={exp.link} className='subheading portfolio-content-experiment-title'>
                     {exp.title}
-                  </div>
+                  </a>
                   <div className='text-primary portfolio-content-experiment-desc'>
                     {exp.description}
                   </div>
@@ -37,9 +37,9 @@ const Portfolio = ({ portfolioData }) => {
             {
               portfolioData && portfolioData.contributions.map((cont, i) => (
                 <div key={i} className='portfolio-content-cont'>
-                  <div className='subheading portfolio-content-cont-title'>
+                  <a href={cont.link} className='subheading portfolio-content-cont-title'>
                     {cont.title}
-                  </div>
+                  </a>
                   <div className='text-primary portfolio-content-cont-desc'>
                     {cont.description}
                   </div>
